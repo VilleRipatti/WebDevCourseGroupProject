@@ -4,7 +4,7 @@
 		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<title>Task 4-5</title>
+		<title>Register</title>
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 		
 	</head>
@@ -39,40 +39,42 @@
 			<form action="index.html" method="post">
 				<ul>
 					<li>
-						<label for="uname">Username:</label>
-						<input type="text" id="uname" required>
+						<label for="uname" class="form-label">Username:</label>
+						<input type="text" id="uname" class="form-control" required>
 					</li>
 					<li>
-						<label for="uname">Password:</label>
-						<input type="password" id="pword" required>
+						<label for="uname" class="form-label">Password:</label>
+						<input type="password" id="pword" class="form-control" required>
 					</li>
 					<li>
-						<label for="email">Email:</label>
-						<input type="email" id="email" placeholder="email@email.com" required>
+						<label for="email" class="form-label">Email:</label>
+						<input type="email" id="email" class="form-control" placeholder="email@email.com" required>
 					</li>
 					<li>
-						<label for="fname">First name:</label>
-						<input type="text" id="fname" name="fname" required>
+						<label for="fname" class="form-label">First name:</label>
+						<input type="text" id="fname" class="form-control" name="fname" required>
 					</li>
 					<li>
-						<label for="lname">Last name:</label>
-						<input type="text" id="lname" name="lname" required>
+						<label for="lname" class="form-label">Last name:</label>
+						<input type="text" id="lname" class="form-control" name="lname" required>
 					</li>
 					<li>
-						<input type="radio" id="male" name="gender" value="male">
-						<label for="male">Male</label>
-						<input type="radio" id="female" name="gender" value="female">
-						<label for="female">Female</label>
-						<input type="radio" id="other" name="gender" value="other" checked>
-						<label for="other">Other</label>
+						<input class="form-check-input" type="radio" id="male" name="gender" value="male">
+						<label for="male" class="form-check-label">Male</label>
+						<input class="form-check-input" type="radio" id="female" name="gender" value="female">
+						<label for="female" class="form-check-label">Female</label>
+						<input class="form-check-input" type="radio" id="other" name="gender" value="other" checked>
+						<label for="other" class="form-check-label">Other</label>
 					</li>
 					<li>
-						<label for="birthday">Birthday:</label>
-						<input type="date" id="birthday" name="birthday">
+						<div class="input-group input-group-sm">
+						  <span class="input-group-text" id="inputGroup-sizing-sm">Birthday:</span>
+						<input class="form-control form-control-sm" type="date" id="birthday" name="birthday">
+						</div>
 					</li>
 					<li>
-						<label for="country">Country:</label>
-						<select id="country" name="country">
+						<label for="country" class="form-label">Country:</label>
+						<select id="country" class="form-select form-select-sm" name="country">
 							<option value="Afganistan">Afghanistan</option>
 							<option value="Albania">Albania</option>
 							<option value="Algeria">Algeria</option>
@@ -323,7 +325,7 @@
 
 					</li>
 					<li>
-						<input type="submit" value="Register">
+						<button class="btn btn-primary" type="submit">Register</button>
 					</li>
 				</ul>
 				
