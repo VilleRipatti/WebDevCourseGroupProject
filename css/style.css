@@ -7,7 +7,7 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     margin: 0; 
-    background-color: rgb(49, 71, 82);
+    background-color: #212529!important;;
     color: white;
     height: 60px;
     text-align: center;
