@@ -59,9 +59,24 @@
 			color: white;
 			font-family: sans-serif;
 		}
+		.namearea{
+			width: 500px;
+			height: 30px;
+			display: block;
+			background-color: rgb(48, 48, 48);
+			color: white;
+			font-family: sans-serif;
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
 		.name {
 			font-weight: bold;
 			font-size: medium;
+		}
+		.btn {
+			border: 2px solid black;
+			margin: 5px;
+			margin-left: 0px;
 		}
 
 		</style>
@@ -128,11 +143,11 @@
 				  
 			  
 				  <label for="msg"><b>Chat</b></label>
-				  <textarea placeholder="Type name.." name="msg" required></textarea>
+				  <textarea class="namearea" placeholder="Type name.." name="msg" required></textarea>
 				  <textarea placeholder="Type message.." name="msg" required></textarea>
 					
-				  <button type="submit" class="btn">Send</button>
-				  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+				  <button class="btn" type="submit" class="btn">Send</button>
+				  <button class="btn" type="button" class="btn cancel" onclick="closeForm()">Close</button>
 				</form>
 			  </div>
 
