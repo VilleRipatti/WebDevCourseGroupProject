@@ -2,6 +2,7 @@ body {
 	background-color: darkgray;
 }
 
+
 footer {
     justify-content: center;
     margin: 0; 
@@ -11,4 +12,12 @@ footer {
     text-align: center;
     width: auto;
     padding-top: 20px;
+}
+
+.regform span {
+	width:20%;
+}
+
+.logform span {
+	width:20%;
 }
