@@ -2,6 +2,7 @@ body {
 	background-color: darkgray;
 }
 
+
 footer {
     display: flex;
     flex-flow: row wrap;
@@ -20,3 +21,4 @@ footer {
 .logform span {
 	width:20%;
 }
+
