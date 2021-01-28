@@ -15,6 +15,7 @@
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
 		<div class="container-fluid">
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -39,6 +40,42 @@
 		</div>
 	</nav>
 <div style="margin-left: 50px; margin-right: 50px;">
+
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="chat.html">Chat</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="forums.html">Forums</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="ruokalista.html">Ruokalista</a>
+						</li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="profile.html">Profile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="register.html" id="navreg">Register</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+
+
 	<div>
 		<button class="accordion" style="font-size: medium;">Forum topic 1</button>
 		<div class="panel">
@@ -107,8 +144,12 @@
 			</div>
 
 		</div>
+
 		
 		<button class="accordion" style="font-size: medium;">Forum topic 2</button>
+
+		<button class="accordion">Section 2</button>
+
 		<div class="panel">
 			<content style="flex-grow: 6; background-color: rgb(233, 228, 217); ">
 				<div class="box"> 
@@ -188,8 +229,15 @@
 
 		</div>
 	</div>
+
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Footer -->
+		<footer>
+            <p>Remember to use good manners during writing your texts. If you dont, Moderators might BAN you!</p>
+		</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script>
 	var acc = document.getElementsByClassName("accordion");
 	var i;
@@ -206,7 +254,6 @@
 	  });
 	}
 	</script>
-
 
 </body>
 </html>
