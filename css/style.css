@@ -2,6 +2,7 @@ body {
 	background-color: darkgray;
 }
 
+
 footer {
     display: flex;
     flex-flow: row wrap;
@@ -12,3 +13,12 @@ footer {
     height: 60px;
     text-align: center;
 }
+
+.regform span {
+	width:20%;
+}
+
+.logform span {
+	width:20%;
+}
+
