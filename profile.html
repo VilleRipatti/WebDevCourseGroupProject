@@ -54,7 +54,19 @@
 					</div>
 					<div class="col-md-2">
 						<span>Profile Image</span>
-						<img src="img/profile.png" style="height:20%;">
+						<div class="imgholder" style="height:200px;width:200px;border-style: solid; border-width:2px;">
+							<img src="img/profile.png" style="max-height:100%;max-width:100%;">
+						</div>
+						<label class="btn btn-dark" style="width:200px;">
+							Upload a new image
+							<input type="file" class="uploadFile img" value="Upload Photo" style="width: 0px;height: 0px;overflow: hidden;">
+						</label>
+					</div>
+				</div>
+				<div class="container">
+					<div class="form-group">
+						<label for="aboutme">About me:</label>
+						<textarea class="form-control" id="aboutme" rows="3" disabled>I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. </textarea>
 					</div>
 				</div>
 			</div>
