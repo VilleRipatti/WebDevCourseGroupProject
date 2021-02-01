@@ -52,8 +52,7 @@ footer {
     overflow: visible;
     color: lightgray;
     overflow-y: scroll;
-    position: absolute; 
-    width: 1000px;
+    width: 90%;
     height: 750px;
   }
   .panel > p {
@@ -98,7 +97,8 @@ leftbar,rightbar{
 	margin: 25px;
 	border-radius: 5px;
 	background-color: rgb(189, 212, 201);
-	padding: 1em;
+    padding: 1em;
+    
 } 
 
 .msg {
