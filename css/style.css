@@ -7,7 +7,7 @@ footer {
     margin: 0; 
     background-color: #212529!important;
     color: white;
-    height: 150px;
+    height: 100px;
     text-align: center;
     width: auto;
     padding-top: 20px;
@@ -25,7 +25,14 @@ footer {
     .ruokakuva {
         height: 100px;
         width: 140px;
-    } 
+    }
+
+    #ruokakuva2 {
+        display: none;
+}
+    #ruokakuva3 {
+        display: none;
+}
 }
 
 .regform span {
