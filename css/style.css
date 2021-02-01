@@ -3,16 +3,37 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 footer {
     justify-content: center;
     margin: 0; 
     background-color: #212529!important;
     color: white;
-    height: 60px;
+    height: 100px;
     text-align: center;
     width: auto;
     padding-top: 20px;
+}
+
+.ruokakuva {
+    height:250px;
+    width:433px;
+}
+
+@media (max-width: 550px) {
+    body {
+        font-size: 10px;
+    }
+    .ruokakuva {
+        height: 100px;
+        width: 140px;
+    }
+
+    #ruokakuva2 {
+        display: none;
+}
+    #ruokakuva3 {
+        display: none;
+}
 }
 
 .regform span {
@@ -91,7 +112,6 @@ leftbar,rightbar{
     background-color: rgb(248, 248, 240);
     min-height: 500px;
 }
-
 
 .box {
 	float:left;

@@ -4,7 +4,7 @@
 	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-	<title>Ruokalista</title>
+	<title>Lunch list</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">		
 </head>
 
@@ -27,7 +27,7 @@
 							<a class="nav-link" href="forums.html">Forums</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="ruokalista.html">Ruokalista</a>
+							<a class="nav-link active" href="ruokalista.html">Lunch list</a>
 						</li>
 					</ul>
 				</div>
@@ -50,70 +50,73 @@
 		<div class="container" style = "min-height: 900px;">
 			<div class = "row" style="width: 100%;">
 				<div class = "col-sm-4">
-					<img src="img/breakfest.jpg" alt="Kuva aamiaisesta" height="250" width="433" style="border-bottom-left-radius: 8%;">
+					<img src="img/breakfest.jpg" class="ruokakuva" alt="Pic of breakfest" height="250" width="433" style="border-bottom-left-radius: 8%;">
 				</div>
 				<div class = "col-sm-4">
-					<img src="img/meal.jpg" alt="Kuva ateriasta" height="250" width="433">
+					<img src="img/meal.jpg" class="ruokakuva" id = "ruokakuva2" alt="Pic of meal" height="250" width="433">
 				</div>
 				<div class = "col-sm-4">
-					<img src="img/lunch.jpg" alt="Kuva lounaasta" height="250" width="433" style="border-bottom-right-radius: 8%;">
+					<img src="img/lunch.jpg" class="ruokakuva" id = "ruokakuva3" alt="Pic of lunch" height="250" width="433" style="border-bottom-right-radius: 8%;">
 				</div>
 			</div>
 
-			<h1 style="margin-top: 15px;">Ruokalista tänään:</h1>
+			<h1 style="margin-top: 15px;">Menu today:</h1>
 
 			<table class="table table-reflow">
 				<thead>
 				  <tr>
-					<th>Ruuan tyyli</th>
-					<th>Annos</th>
-					<th>Hinta</th>
-					<th>Allergeenit</th>
-					<th>Ruuan kulttuuri</th>
+					<th>Style of food</th>
+					<th>Dish</th>
+					<th>Price</th>
+					<th>Allergens</th>
+					<th>Culture of food</th>
 				  </tr>
 				</thead>
 				<tbody>
 				  <tr>
-					<th scope="row">Kotiruoka 1</th>
+					<th scope="row">Home food 1</th>
 					<td>Pasta Carbonara</td>
 					<td>2,72 / 5,40 / 8,60€</td>
 					<td>VL</td>
-					<td>Italia</td>
+					<td>Italy</td>
 				  </tr>
 				  <tr>
-					<th scope="row">Kotiruoka 2</th>
+					<th scope="row">Home food 2</th>
 					<td>Mac n' Cheese</td>
 					<td>2,72 / 5,40 / 8,60€</td>
 					<td>L</td>
-					<td>Amerikka</td>
+					<td>America</td>
 				  </tr>
 				  <tr>
-					<th scope="row">Kasvisruoka</th>
-					<td>Kasvispyttipannu</td>
+					<th scope="row">Vegetarian dish</th>
+					<td>Vegetable pan</td>
 					<td>2,50 / 5,25 / 8,40€</td>
-					<td>L, G, Lihaton</td>
-					<td>Pohjoismaat</td>
+					<td>L, G, Meatless</td>
+					<td>Nordic countries</td>
 				  </tr>
 				  <tr>
-					<th scope="row">Vegaaninen</th>
-					<td>Hernekeitto</td>
+					<th scope="row">Vegan</th>
+					<td>Pea soup</td>
 					<td>2,50 / 5,25 / 8,40€</td>
-					<td>V, L, G, Lihaton</td>
-					<td>Antiikin Kreikka</td>
+					<td>V, L, G, Meatless</td>
+					<td>Ancient Greece</td>
 				  </tr>
 				</tbody>
 			  </table>
 			  <ul class="list-group">
-				<li class="list-group-item">VL = Vähälaktoosinen</li>
-				<li class="list-group-item">L = Laktoositon</li>
-				<li class="list-group-item">G = Gluteeniton</li>
-				<li class="list-group-item">V = Vegaani</li>
+				<li class="list-group-item">LL = Low lactose</li>
+				<li class="list-group-item">L = Lacktose free</li>
+				<li class="list-group-item">G = Gluten free</li>
+				<li class="list-group-item">V = Vegan</li>
 			  </ul>
 		</div>
 
 		<!-- Footer -->
 		<footer>
-            <p>Lounasravintola avoinna maanantaista perjantaihin lounasaikaan kello 10.30 - 14.00. Menu vaihtuva viikottain.</p>
+			<p style = "text-align: left; padding-left: 20px;">School lunch restaurant: <br>
+				Telenumber: +358 123 456 78 <br>
+				Address: Koulutie 1 A3, 12200 Hameenlinna <br>
+				imagination_email@random.fi</p>
         </footer>
 		
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
