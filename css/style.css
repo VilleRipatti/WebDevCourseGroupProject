@@ -2,7 +2,6 @@ body {
 	background-color: darkgray;
 }
 
-
 footer {
     justify-content: center;
     margin: 0; 
@@ -12,6 +11,21 @@ footer {
     text-align: center;
     width: auto;
     padding-top: 20px;
+}
+
+.ruokakuva {
+    height:250px;
+    width:433px;
+}
+
+@media (max-width: 550px) {
+    body {
+        font-size: 10px;
+    }
+    .ruokakuva {
+        height: 100px;
+        width: 140px;
+    } 
 }
 
 .regform span {
@@ -94,15 +108,6 @@ leftbar,rightbar{
     min-height: 500px;
 }
 
-footer {
-    background-color: black;
-    color:white;
-    height: 60px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 60px;
-    font-family:'Times New Roman', Times, serif;
-}
 .box {
 	float:left;
 	margin: 25px;
