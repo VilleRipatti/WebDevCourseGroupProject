@@ -6,12 +6,13 @@ body {
 footer {
     justify-content: center;
     margin: 0; 
+	margin-top: 10px;
     background-color: #212529!important;
     color: white;
-    height: 100px;
+    min-height: 100px;
     text-align: center;
     width: auto;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .ruokakuva {
